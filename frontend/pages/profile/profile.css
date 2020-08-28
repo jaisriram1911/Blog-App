@@ -1,0 +1,148 @@
+
+.profile-page{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-page_left-box{
+    width: 30%;
+  }
+  
+  .profile-page_right-box{
+    width: 70%;
+  }
+  
+  .profile-user_photo{
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .profile-user_no-photo{
+    width: 240px;
+    border-radius: 10px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #363636;
+    color: #ffffff;
+  
+  }
+  
+  .profile-page_user-name{
+    font-weight: 700;
+    font-size: 28px;
+  }
+  
+  .profile-page_blog-box-title{
+    font-weight: 700;
+  }
+  
+  .profile-page_blog-list{
+    height: 610px;
+    overflow-y: scroll;
+  }
+  
+  .profile-page_card{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-page_card-blog-photo{
+    width: 220px;
+    height: 160px;
+  
+  }
+  
+  .profile-page_card-blog{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .profile-page_card-blog-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #363636;
+  }
+  
+  .profile-page_card-blog-para{
+    font-size: 14px;
+    color: #363636;
+  }
+  
+  .profile-name-flex{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-page_user-about{
+    margin-top: 30px;
+    width: 80%;
+  }
+
+  @media screen and (max-width: 968px) {
+    .profile-page{
+      padding: 20px 30px;
+      flex-direction: column;
+    }
+    .profile-page_left-box{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 40px; 
+    }
+    .profile-name-flex{
+      margin-top: 100px;
+      margin-left: 40px;
+    }
+    .profile-page_user-about{
+      font-size: 14px;
+      width: 100%;
+    }
+    .profile-page_right-box{
+      width: 100%;
+    }
+    .profile-page_card-blog-photo{
+      width: 160px;
+      height: 140px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .profile-user_photo{
+      width: 160px;
+      height: 160px;
+    }
+    .profile-user_no-photo{
+      width: 160px;
+      height: 160px;
+    }
+    
+    .profile-name-flex{
+      margin-top: 50px;
+      margin-left: 40px;
+    }
+    .profile-page_card-blog-title{
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 560px){
+    .profile-user_no-photo{
+      width: 120px;
+      height: 120px;
+    }
+    .profile-user_photo{
+      width: 120px;
+      height: 120px;
+    }
+    .profile-page_card-blog-photo{
+      width: 100px;
+      height: 100px;
+    }
+  }

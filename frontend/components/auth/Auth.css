@@ -1,0 +1,51 @@
+.auth-page{
+    margin: 10% auto;
+    width: 400px;
+    height: 100%;
+}
+
+.auth-title{
+    font-size: 32px;
+    font-weight: 600;
+    color: #363636;
+    margin-bottom: 1rem;
+    font-family: 'Merriweather', serif; 
+  }
+
+.auth-description{
+    font-weight: 500;
+    
+}
+
+.auth-description a{
+    font-weight: 600;
+    font-family: 'Merriweather', serif; 
+    text-decoration: none;
+    color: #406596;
+}
+
+.auth-description a:hover{
+    color: #406596;
+}
+
+.auth-input_size{
+    height: 60px;
+}
+
+.auth-forgot{
+    color: #ca4578;
+}
+
+.auth-forgot:hover{
+    text-decoration:none;
+    color: #ca4578;
+}
+
+.auth-blog-button{
+    width: 160px;
+}
+
+.auth-button{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,41 @@
+.form_size{
+    width: 640px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.form_title{
+    font-weight: 600;
+}
+
+.form-input_size{
+    height: 60px;
+    width: 300px;
+}
+
+.form-input_flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form_textarea_size{
+    width: 640px
+}
+
+@media screen and (max-width: 768px){
+    .form_size{
+        padding: 0 20px;
+    }
+    .form-input_size{
+        width: 450px
+    }
+    .form_textarea_size{
+        width: 450px
+    }
+    .form-input_flex{
+        flex-direction: column;
+    }
+}

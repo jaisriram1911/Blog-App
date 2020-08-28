@@ -1,0 +1,126 @@
+.card-blog_box{
+    display: flex;
+    padding: 20px;
+    height: 260px;
+    width: 100%;
+  }
+  
+  .card-blog_image-left{
+    width: 360px;
+    height: 240px;
+    cursor: pointer;
+    object-fit: cover;
+  }
+  
+  .card-blog_content_right{
+    margin-left: 40px;
+    width: 100%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-blog_title{
+    cursor: pointer;
+    font-weight: 800;
+  }
+  
+  .card-blog_excerpt{
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .card-blog-right_bottom_flex{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-mobile-description{
+      display: none;
+  }
+
+  .card-mobile_read-more{
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    background: #363636;
+    color: #f4f4f4;
+    font-size: 12px;
+}
+
+  @media screen and (max-width:1200px) {
+    .card-blog_image-left{
+        height: 180px;
+        width: 300px;
+    }
+    .card-blog_content_right{
+        height: 180px;
+    }
+  }
+
+  @media screen and (max-width:1024px) {
+    .card-blog_image-left{
+        height: 140px;
+        width: 200px;
+    }
+    .card-blog_content_right{
+        height: 160px;
+    }
+    .card-mobile-description{
+      display: block;
+      font-size: 14px;
+      font-family: 'Merriweather', serif;
+    }
+    .card-blog_title{
+        font-size: 18px;
+      }
+      .card-blog_excerpt{
+          display: none;
+      }
+      .card-blog_box{
+          height: 200px;
+      }
+  }
+
+  @media screen and (max-width:860px) {
+    .card-blog_image-left{
+        height: 120px;
+        width: 160px;
+    }
+    .card-mobile-description{
+      display: block;
+    }
+    .card-blog_title{
+        font-size: 16px;
+      }
+      .card-blog_createdBy{
+          font-size: 16px;
+      }
+      .card-blog_content_right{
+        margin-left: 20px;
+      }
+  }
+
+  @media screen and (max-width: 500px) {
+    .card-blog_image-left{
+        height: 100px;
+        width: 120px;
+    }
+
+    .card-blog_title{
+        font-size: 14px;
+      }
+      .card-blog_createdBy{
+        font-size: 12px;
+    }
+    .card-blog_mdesc{
+        font-size: 12px;
+    }
+    .card-mobile_read-more{
+        height: 30px;
+        width: 80px;
+    }
+    
+  }

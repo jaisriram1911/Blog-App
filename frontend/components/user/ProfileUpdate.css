@@ -1,0 +1,43 @@
+.profile-update{
+    display: flex;
+    padding: 80px 200px;
+    justify-content: space-evenly;
+}
+
+.profile-update_user-image img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+.profile-update_user-info{
+    width: 60%;
+}
+
+@media screen and (max-width: 978px){
+    .profile-update{
+        padding: 80px 100px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .profile-update{
+        padding: 80px 30px;
+    }
+}
+
+@media screen and (max-width:560px){
+    .profile-update{
+        flex-direction: column;
+    }
+    .profile-update_user-image img{
+        height: 400px;
+        width: 100%;
+    }
+    
+    .profile-update_user-info{
+        width: 100%;
+        margin-top: 40px;
+    }
+}

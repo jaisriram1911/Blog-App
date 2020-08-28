@@ -1,0 +1,53 @@
+.small_card{
+    height: 200px;
+    display:flex;
+}
+
+.small-card_img img{
+    height: 140px;
+    object-fit: cover;
+}
+
+.small-card_right{
+    margin-left: 30px ;
+}
+
+.small-card_title{
+    color: #363636;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.small-card_title:hover{
+    text-decoration: none;
+    color: #363636;
+}
+
+.small-card_mdesc{
+    margin-top: 10px;
+    font-family: 'Merriweather', serif;
+}
+
+.small-card_createdby{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .small-card_img img{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .small-card_img img{
+        height: 80px;
+    }
+    .small-card_title{
+        font-size: 16px;
+    }
+    .small-card_mdesc{
+        font-size: 12px;
+    }
+}
